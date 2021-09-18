@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
     <!-- 그림자 효과 -->
     <!-- 1 -->
     <item>
@@ -13,6 +14,7 @@
             <corners android:radius="12dp" />
         </shape>
     </item>
+
     <!-- 2 -->
     <item>
         <shape>
@@ -25,6 +27,7 @@
             <corners android:radius="12dp" />
         </shape>
     </item>
+
     <!-- 3 -->
     <item>
         <shape>
@@ -37,6 +40,7 @@
             <corners android:radius="12dp" />
         </shape>
     </item>
+
     <!-- 4 -->
     <item>
         <shape>
@@ -49,6 +53,7 @@
             <corners android:radius="12dp" />
         </shape>
     </item>
+
     <!-- 버튼 색상 -->
     <item>
         <shape>
@@ -56,4 +61,5 @@
             <corners android:radius="12dp" />
         </shape>
     </item>
+
 </layer-list>
