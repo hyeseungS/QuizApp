@@ -56,22 +56,22 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <!-- 정답 -->
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_main_correct"
             android:layout_width="match_parent"
             android:layout_height="105sp"
             android:layout_marginBottom="-15sp"
-            android:text="정답을 입력해주세요."
+            android:text="나는 테니스를 배운 적이 있다."
             android:background="@drawable/background_selector"
             android:textColor="@color/gray_text"
             android:textSize="15sp"
             android:textStyle="bold" />
         <!-- 오답 -->
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_main_wrong"
             android:layout_width="match_parent"
             android:layout_height="105sp"
-            android:text="오답을 입력해주세요."
+            android:text="나는 요가를 배운 적이 있다."
             android:background="@drawable/background_selector"
             android:textColor="@color/gray_text"
             android:textSize="15sp"
